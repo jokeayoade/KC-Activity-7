@@ -1,0 +1,572 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.header {
+  margin: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("../images/hero-bg.jpg");
+  width: 100%;
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+}
+.banner-heading {
+  width: 40%;
+  margin-left: 60px;
+}
+.banner-heading h1 {
+  font-size: 53px;
+  font-weight: 300;
+  color: white;
+}
+.banner-heading h2 {
+  font-size: 80px;
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+}
+.divider {
+  background-color: white;
+  height: 10px;
+  margin: 10px 0;
+}
+.icon-area {
+  height: 20vh;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  color: white;
+}
+.icon-area .img {
+  width: 80px;
+  height: 80px;
+}
+.icon-area h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.banner-icons {
+  display: flex;
+  gap: 100px;
+  margin-top: 30px;
+}
+
+.our-services {
+  background-color: #f2f2f2;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.our-services .content {
+  width: 70%;
+}
+
+.our-services-heading,
+.our-services-text,
+.our-services-text-content {
+  text-align: center;
+}
+
+.our-services .our-services-heading {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: gray;
+}
+
+.our-services .our-services-text {
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.our-services .our-services-text-content {
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 300;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+}
+.button-section button {
+  background: red;
+  padding: 20px 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+.help-section {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+.about-help,
+.help-content {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.handyman-img {
+  flex-grow: 1;
+  height: 350px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.handyman-1 {
+  background-image: url("../images/handyman-1.jpg");
+}
+
+.handyman-2 {
+  background-image: url("../images/handyman-2.jpg");
+}
+
+.about-help-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 50px 30px 50px;
+  line-height: 1.5;
+}
+
+.need-help-text {
+  font-size: 36px;
+  font-weight: bolder;
+  margin: 30px 0 20px 0;
+}
+
+.call-us-now {
+  font-size: 30px;
+  color: red;
+}
+
+.summary-area {
+  background-color: #ddd3d3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  height: 700px;
+}
+.row {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.one {
+  flex: 0.5;
+}
+.two {
+  flex: 0.5;
+}
+.row .image {
+  background-image: url("../images/summary-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 640px;
+}
+.summary-heading {
+  font-size: 72px;
+  font-family: "Roboto", sans-serif;
+  color: #104e92;
+}
+.line {
+  background-color: red;
+  width: 100%;
+  height: 10px;
+  margin: 20px 0 20px 0;
+}
+.summary-text {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin: 30px 0;
+  line-height: 2;
+}
+.button-booknow button {
+  background: red;
+  padding: 20px 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.services {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+.services-inner {
+  width: 80%;
+}
+.services-heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+}
+.icons-area {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.icons-area .img {
+  width: 80px;
+  height: 80px;
+}
+.icon-container {
+  background: red;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons-area h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.icons-area h6 {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.services-icons {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+.about-us-section {
+  height: 80vh;
+  background: #104e92;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.about-us {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  flex: 0.1;
+}
+.about-us h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: white;
+  text-transform: uppercase;
+}
+.about-us h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 96px;
+  color: white;
+}
+.about-us h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 96px;
+  color: white;
+}
+.image-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 0.4;
+}
+.image-section img {
+  height: 200px;
+  width: 250px;
+  object-fit: cover;
+}
+.images {
+  display: flex;
+  gap: 30px;
+  flex: 1;
+}
+.text-section {
+  flex: 0.6;
+}
+.to-do {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.to-do-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  width: 60%;
+}
+.to-do-content {
+  font-size: 36px;
+  line-height: 1.1;
+}
+.to-do-text {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.button-area {
+  display: flex;
+  gap: 15px;
+}
+.button-book-now {
+  background: red;
+  padding: 20px 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  width: 170px;
+}
+.button-call-us {
+  background: white;
+  padding: 20px 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  width: 170px;
+}
+button {
+  cursor: pointer;
+}
+.button-book-now:hover {
+  background: crimson;
+}
+/* for tablet devices */
+@media only screen and (max-width: 768px) {
+  .banner {
+    background-position: 65.74% 0%;
+    height: 100vh;
+    align-items: flex-end;
+  }
+  .banner-heading {
+    width: 55%;
+    margin-left: 50px;
+    margin-bottom: 120px;
+  }
+  .banner-heading h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+  }
+  .banner-heading h2 {
+    font-size: 70px;
+  }
+  .banner-icons {
+    display: flex;
+    gap: 75px;
+    margin-top: 30px;
+  }
+  .our-services {
+    height: 70vh;
+  }
+  .our-services .content {
+    width: 95%;
+  }
+  .help-section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  .about-help,
+  .help-content {
+    width: 100%;
+  }
+  .help-text {
+    padding-left: 50px;
+  }
+  .row {
+    width: 90%;
+  }
+  .summary-heading {
+    font-size: 53px;
+  }
+  .about-us-section {
+    height: 85vh;
+    flex: 1;
+  }
+  .about-us {
+    flex-direction: column;
+    align-items: center;
+    flex: 0.9;
+    gap: 50px;
+  }
+  .text-section {
+    flex: 1;
+  }
+  .about-us h1 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .about-us h2 {
+    font-size: 70px;
+    font-weight: 400;
+    display: inline-block;
+  }
+  .about-us h3 {
+    font-size: 70px;
+    padding-left: 10px;
+    display: inline-block;
+  }
+  .image-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+  }
+  .image-section img {
+    height: 275px;
+    width: 300px;
+    object-fit: cover;
+  }
+  .to-do {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .to-do-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    width: 80%;
+  }
+}
+
+/* for mobile devices */
+@media only screen and (max-width: 480px) {
+  .banner {
+    background-position: 73.49% 50%;
+    justify-content: center;
+    height: 80vh;
+  }
+  .banner-icons {
+    display: none;
+  }
+  .banner-heading {
+    width: 70%;
+    margin: 0;
+    margin-bottom: 35px;
+  }
+  .banner-heading h1 {
+    font-size: 30px;
+  }
+  .banner-heading h2 {
+    font-size: 44px;
+  }
+  .image-section img {
+    /* height: 275px; */
+    width: 45%;
+    object-fit: cover;
+  }
+  .our-services .our-services-text {
+    font-size: 30px;
+  }
+  .help-section {
+    padding: 50px 30px;
+  }
+  .handyman-img {
+    height: 250px;
+  }
+  .about-help-text {
+    font-weight: 300;
+    margin: 0;
+  }
+  .about-help,
+  .help-content {
+    gap: 30px;
+  }
+  .help-text {
+    padding-left: 0;
+  }
+  .need-help-text {
+    font-size: 23px;
+  }
+  .call-us-now {
+    font-size: 18px;
+  }
+  .summary-area {
+    background-color: #ddd3d3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200vh;
+  }
+  .row {
+    flex-direction: column;
+    width: 80%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+  }
+
+  .one {
+    flex: 0.5;
+  }
+  .two {
+    flex: 0.5;
+  }
+  .row .image {
+    background-image: url("../images/summary-image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+  }
+  .summary-heading {
+    font-size: 40px;
+  }
+}
