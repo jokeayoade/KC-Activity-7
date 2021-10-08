@@ -537,10 +537,10 @@ button {
   .summary-area {
     background-color: #ddd3d3;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    height: 200vh;
+    align-items: center;
+    height: 150vh;
   }
   .row {
     flex-direction: column;
@@ -548,25 +548,113 @@ button {
     height: 95%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 20px;
     flex: 1;
   }
 
   .one {
-    flex: 0.5;
+    flex: 0.6;
   }
   .two {
-    flex: 0.5;
+    width: 100%;
+    flex: 0.4;
+    padding: 0 0 20px 0;
   }
   .row .image {
     background-image: url("../images/summary-image.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
   }
   .summary-heading {
     font-size: 40px;
+  }
+
+  /* ################################################
+
+  Services Style
+
+################################################ */
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .services-inner {
+    width: 80%;
+  }
+
+  .services-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+  }
+  .services-heading {
+    font-size: 40px;
+  }
+
+  /* ################################################
+
+  About US Section Style
+
+################################################ */
+  .about-us-section {
+    height: 1000px;
+    background: #104e92;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 0;
+    width: 80%;
+  }
+  .about-us h1 {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .about-us h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    color: white;
+    display: block;
+  }
+  .about-us h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: white;
+    display: block;
+    padding: 0;
+  }
+  .image-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 0.9;
+  }
+  .image-section img {
+    height: 170px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 0;
+  }
+  .text-section {
+    flex: 0.1;
   }
 }
