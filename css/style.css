@@ -504,7 +504,6 @@ button {
     font-size: 44px;
   }
   .image-section img {
-    /* height: 275px; */
     width: 45%;
     object-fit: cover;
   }
@@ -552,7 +551,6 @@ button {
     gap: 20px;
     flex: 1;
   }
-
   .one {
     flex: 0.6;
   }
@@ -572,13 +570,6 @@ button {
   .summary-heading {
     font-size: 40px;
   }
-
-  /* ################################################
-
-  Services Style
-
-################################################ */
-
   .services {
     flex-direction: column;
     align-items: center;
@@ -587,7 +578,6 @@ button {
   .services-inner {
     width: 80%;
   }
-
   .services-icons {
     display: flex;
     flex-direction: column;
@@ -597,12 +587,6 @@ button {
   .services-heading {
     font-size: 40px;
   }
-
-  /* ################################################
-
-  About US Section Style
-
-################################################ */
   .about-us-section {
     height: 1000px;
     background: #104e92;
@@ -656,5 +640,22 @@ button {
   }
   .text-section {
     flex: 0.1;
+  }
+  .to-do {
+    height: 110vh;
+    flex-direction: column;
+  }
+  .to-do-section {
+    width: 80%;
+  }
+  .to-do-content {
+    font-size: 30px;
+  }
+  .to-do-text {
+    font-size: 25px;
+  }
+  .button-area {
+    flex-direction: column;
+    gap: 25px;
   }
 }
